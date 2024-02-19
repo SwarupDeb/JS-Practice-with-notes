@@ -14,5 +14,4 @@
 /*
 Interview QnA->
 Sometime problem caused due to pollution in GLobal Scope, for removing the pollution from Global scope variable or anything we use IIFE
-
 */ 
