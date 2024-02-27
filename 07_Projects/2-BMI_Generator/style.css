@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    background-color: #000000; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif; /* Font stack */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+  }
+  
+  .container {
+    max-width: 800px; /* Limit width */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px; /* Add some padding */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #ffffff; /* Darker background */
+    padding: 10px 0; /* Add some padding */
+  }
+  
+  nav a {
+    color: #000000; /* White text */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add some space between links */
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #ffa500; /* Orange text */
+  }
+  
+  /* Form Styles */
+  form {
+    margin-top: 20px; /* Add some space from header */
+  }
+  
+  label {
+    display: inline-block; /* Make labels inline */
+    width: 150px; /* Set label width */
+  }
+  
+  input[type="text"] {
+    width: 200px; /* Set input width */
+    padding: 5px; /* Add some padding */
+    margin-bottom: 10px; /* Add some space below input */
+  }
+  
+  button {
+    background-color: #ffa500; /* Orange button */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+  }
+  
+  button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+  }
+  
+  /* Results Styles */
+  #results {
+    margin-top: 20px; /* Add some space from button */
+  }
+  
+  /* Weight Guide Styles */
+  #weight-guide {
+    margin-top: 20px; /* Add some space from results */
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .container {
+    animation: fadeIn 1s ease-in-out; /* Apply animation to container */
+  }
+  
