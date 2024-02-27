@@ -2,6 +2,16 @@ html {
     margin: 0;
   }
   
+  body {
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif; /* Font stack */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+  }
+  
+
   span {
     display: block;
   }
@@ -30,5 +40,25 @@ html {
   }
   #Violet {
     background: Violet;
+  }
+  #Reset {
+    display: inline-block;
+    width: 100px; /* Set button width */
+    height: 50px; /* Set button height */
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+    cursor: pointer; /* Add pointer cursor */
+    margin: 10px; /* Add margin */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  #Reset:hover {
+    background-color: #555; /* Darker background on hover */
+  }
+  
+  #Reset:active {
+    background-color: #222; /* Darker background on click */
   }
   

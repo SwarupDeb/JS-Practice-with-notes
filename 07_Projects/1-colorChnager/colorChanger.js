@@ -15,5 +15,11 @@ btn.forEach((btn) => {
         if(e.target.id === 'Violet'){
             body.style.backgroundColor = e.target.id;
         }
+        if(e.target.id === 'Reset'){
+            body.style.backgroundColor = '';
+        }
+        else{
+            body.style.backgroundColor = e.target.id;
+        }
     });
 });
