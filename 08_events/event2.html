@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Async</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayConquest = function() {
+        console.log("first message")
+    }
+const changeText = function() {
+    document.querySelector('h1').innerHTML = "CONQUERER"
+    document.querySelector('h1').style.color = "red"
+}
+const changeHap = setTimeout(changeText, 1000)
+
+document.querySelector('#stop').
+addEventListener('click',function() {
+    clearTimeout(changeHap)
+    console.log("Stopped")
+})
+
+</script>
+</html>
