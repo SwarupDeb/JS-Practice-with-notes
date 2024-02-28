@@ -1,0 +1,18 @@
+/* Reset styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a fun font */
+}
+
+button {
+    background-color: #ff6969; /* Pink button background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #050605; /* Darker pink hover effect */
+}
