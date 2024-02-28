@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Supercharge</h1>
+    <button id="stop">Stop</button>
+    <button id="start">start</button>
+</body>
+<script>
+    const tellDate = function (str) {
+        console.log("Conquerer", Date.now());
+    };
+    let intId = setInterval(tellDate, 1000, "start");
+
+    document.querySelector('#stop').addEventListener('click', function () {
+        clearInterval(intId);
+    });
+    document.querySelector('#start').addEventListener('click', function () {
+        clearInterval(intId);
+        intId = setInterval(tellDate, 1000);
+    });
+
+
+</script>
+</html>
