@@ -43,3 +43,4 @@ const game = {
 }
 const {gameCompany: comapny} = game //destructuring -> mostly used in reactjs
 console.log(comapny);
+

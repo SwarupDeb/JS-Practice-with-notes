@@ -11,5 +11,6 @@ console.log(birthDate.getTime());
 
 console.log(Math.round(Date.now()/1000)); // if we want to convert miliseconds to seconds than we have to divide by 1000
 
+
 let tDate = new Date()
 console.log(tDate.getFullYear()); //several methods are there like this
