@@ -56,7 +56,7 @@ function printBoth(n) {
 
 console.log(printBoth(4));
 
-/ Space Complexity
+// Space Complexity
 
 // O(1) Space Complexity
 const funnyNumber = (array) => {
